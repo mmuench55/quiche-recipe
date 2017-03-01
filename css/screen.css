@@ -1,0 +1,248 @@
+body {
+      font-family: Arial;
+      width: 90%;
+      max-width: 45em;
+      background-color: #fff;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+h1 {
+      font-size: 4.5em;
+      text-align: left;
+      margin-top: .4em;
+      margin-bottom: 0em;
+      color: #fff;
+      background: #003300;
+    }
+
+header h1 span {
+      display: block;
+      margin-left: 25%; /* adjust */
+    }
+
+header {
+      margin-right: -5em;
+      margin-left: -5em;
+      padding: 5em 5em 5em;
+      background: #003300
+    }
+
+#title {
+  margin-left: 0.2em;
+}
+
+.visuallyhidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      white-space: nowrap; /* 1 */
+  }
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 1.2em;
+  border: 0px none;
+  background: #003300
+  } /* gets rid of dots */
+
+  nav li {
+    display: inline;
+    }
+
+nav a {color: #FFFFCC;}
+
+/* flexible images */
+/* auto will let it get as big as it can get */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;}
+
+#ingredients {
+  margin-right: -5em;
+  margin-left: -5em;
+  margin-bottom: 0;
+  padding: 4em 4em 4em;
+  background: #006600; }
+
+#directions {
+  margin-right: -5em;
+  margin-left: -5em;
+  padding: 4em 4em 4em;
+  background: #009900;}
+
+li{
+    margin: .25em 0 .25em 1em;
+    line-height: 2em;
+  }
+
+ul{
+    padding: 2em;
+    border: 10px solid #fff;
+    margin: 1em;
+    background: #CCFFCC;
+      }
+
+ol{
+    padding: 2em;
+    border: 10px solid #fff;
+    margin: 1em;
+    background: #CCFFCC;
+            }
+
+
+.jump-link-top {
+              display: block;
+              text-decoration: none;
+              margin-right: -5em;
+              margin-left: -5em;
+              padding: 4em;
+              text-align: center;
+              background: #009900;
+              }
+
+.jump-link-top a {
+              color: #FFFFCC;}
+
+footer {
+  margin-right: -5em;
+  margin-left: -5em;
+  padding: 4em 4em 4em;
+  background: #009900; }
+
+/* medium width */
+@media (min-width: 45em) {
+  h1 {
+        font-size: 4.5em;
+        text-align: center;
+        margin-top: .4em;
+        margin-bottom: 0em;
+        color: #fff;
+        background: #003300;
+      }
+
+  header h1 span {
+        display: block;
+        margin-left: 25%; /* adjust */
+      }
+
+  header {
+    margin-right: -15em;
+    margin-left: -15em;
+    padding: 5em 5em 5em;
+    background: #003300
+      }
+
+  #title {
+    margin-left: -1.5em;}
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 15em;
+    padding-bottom: 2em;
+      }
+
+  #ingredients {
+        margin-right: -15em;
+        margin-left: -15em;
+        margin-bottom: 0;
+        padding: 5em 15em;
+        background: #006600; }
+
+  #directions {
+        margin-right: -15em;
+        margin-left: -15em;
+        padding: 5em 15em;
+        background: #009900;}
+
+  .jump-link-top {
+          display: block;
+          text-decoration: none;
+          margin-right: -15em;
+          margin-left: -15em;
+          padding: 1.2em;
+          text-align: center;
+          background: #009900;
+                      }
+
+  footer {
+          margin-right: -15em;
+          margin-left: -15em;
+          padding: 3em 13em;
+          background: #009900; }
+        }
+
+
+/* largest width */
+
+@media (min-width: 60em) {
+          h1 {
+                font-size: 4.5em;
+                text-align: center;
+                margin-top: .4em;
+                margin-bottom: 0em;
+                color: #fff;
+                background: #003300;
+              }
+
+          header {
+            margin-right: -20em;
+            margin-left: -20em;
+            padding: 5em 5em 5em;
+            background: #003300
+              }
+
+          #title {
+            margin-left: -2em;}
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-left: 20em;
+            padding-bottom: 2em;
+              }
+
+        #ingredients {
+                margin-right: -20em;
+                margin-left: -20em;
+                margin-bottom: 0;
+                padding: 5em 15em;
+                background: #006600; }
+
+        #directions {
+                margin-right: -20em;
+                margin-left: -20em;
+                padding: 5em 15em;
+                background: #009900;}
+
+        .jump-link-top {
+                  display: block;
+                  text-decoration: none;
+                  margin-right: -20em;
+                  margin-left: -20em;
+                  padding: 1.2em;
+                  text-align: center;
+                  background: #009900;
+                              }
+
+        footer {
+                  margin-right: -20em;
+                  margin-left: -20em;
+                  padding: 3em 13em;
+                  background: #009900; }
+                }

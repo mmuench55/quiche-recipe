@@ -1,0 +1,122 @@
+body {
+      font-family: Arial;
+      width: 90%;
+      max-width: 48em;
+      background-color: #fff;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+h1 {
+      font-size: 4em;
+      text-align: left;
+      margin-top: .4em;
+      margin-bottom: 0em;
+      color: #fff;
+      background: #003300;
+    }
+
+.quiche {
+      text-align: right;
+    }
+
+header {
+      margin-right: -1em;
+      margin-left: -1em;
+      padding: 1em 1em 2em;
+      background: #003300;
+    }
+
+.visuallyhidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+      white-space: nowrap; /* 1 */
+  }
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 1.2em;
+  border: 0px none;
+  background: #003300
+  } /* gets rid of dots */
+
+  nav li {
+    display: inline;
+    }
+
+nav a {color: #FFFFCC;}
+
+/* flexible images */
+/* auto will let it get as big as it can get */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -1em;
+    padding-bottom: 2em;
+    align: center;
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;}
+
+#ingredients {
+  margin-right: -1em;
+  margin-left: -1em;
+  margin-bottom: 0;
+  padding: 1em 1em 2em;
+  background: #006600; }
+
+#directions {
+  margin-right: -1em;
+  margin-left: -1em;
+  padding: 1em 1em 2em;
+  background: #009900;}
+
+li{
+    margin: .25em 0 .25em 1em;
+    line-height: 2em;
+  }
+
+ul{
+    padding: 2em;
+    border: 10px solid #fff;
+    margin: 1em;
+    background: #CCFFCC;
+      }
+
+ol{
+    padding: 2em;
+    border: 10px solid #fff;
+    margin: 1em;
+    background: #CCFFCC;
+            }
+
+
+
+.jump-link-top {
+              display: block;
+              text-decoration: none;
+              margin-right: -1em;
+              margin-left: -1em;
+              padding: 1.2em;
+              text-align: center;
+              background: #009900;
+              }
+
+.jump-link-top a {
+              color: #FFFFCC;}
+
+footer {
+  margin-right: -1em;
+  margin-left: -1em;
+  padding: 1em 1em 0;
+  background: #009900; }
